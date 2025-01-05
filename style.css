@@ -1,0 +1,22 @@
+body {
+    position: relative;
+}
+.input {
+    display: flex;
+    flex-direction: column; /* Xếp các thẻ div theo chiều dọc */ /* Tùy chọn: căn giữa các phần tử theo chiều ngang */
+    align-items: center;
+    margin-right: 770px;
+    margin-top: 100px;  /* Tùy chọn: căn giữa các phần tử theo chiều dọc */
+    height: 100vh; /* Đảm bảo chiều cao của body đủ lớn để căn giữa */
+}
+#join {
+    position: absolute;
+    height: 65px;
+    top:0px;
+    left:455px;
+}
+#result {
+    position: absolute;
+    top:70px;
+    left:280px;
+}
